@@ -55,6 +55,7 @@
         margin: 0;
         width: auto;
         height: 100%;
+        box-shadow: 2rem 3rem 2rem hsl(0, 0%, 79%);
       }
     
       .card:nth-child(1) {
