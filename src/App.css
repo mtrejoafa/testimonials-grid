@@ -1,0 +1,21 @@
+.app {
+  background-color: hsl(214, 17%, 92%);
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  width: 100%;
+}
+
+@media screen and (min-width: 1025px) {
+  .app {
+    padding: 10rem;
+  }
+
+  .testimonials-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto auto;
+    gap: 5rem 2rem;
+  }
+}
